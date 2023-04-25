@@ -17,7 +17,7 @@ function App() {
       <div className='flex flex-col h-screen'>
         <Header />
         <Body />
-        <Footer />
+        {/* <Footer /> */}
     </div>
     </UserContext.Provider>
 
