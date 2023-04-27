@@ -5,9 +5,10 @@ import { COLUMNS, GROUPED_COLUMNS } from './columns'
 import { GlobalFilter } from './GlobalFilter'
 import './table.css'
 
-export const ReportTable = () => {
+export const ReportTable = ({ data }) => {
     const columns = useMemo(() => GROUPED_COLUMNS, [])
-    const data = useMemo(() => MOCK_DATA, [])
+    //const data = useMemo(() => MOCK_DATA?.hfareport?.Students, [])
+   // console.log(data)
     const {
         getTableProps,
         getTableBodyProps,
@@ -27,8 +28,11 @@ export const ReportTable = () => {
     )
     const { globalFilter } = state
     return (
-        <>
+        <div class='overflow-auto' style={{ margin: '10px' }}>
+            <div class='flex'>
             <GlobalFilter filter={globalFilter} setFilter={setGlobalFilter} />
+            </div>
+
             <table {...getTableProps()}>
                 <thead>
                     {headerGroups.map(headerGroup => (
@@ -70,6 +74,6 @@ export const ReportTable = () => {
                     ))}
                 </tfoot>
             </table>
-        </>
+        </div>
     )
 }

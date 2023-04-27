@@ -1,1152 +1,1864 @@
-[
-    {
-        "SLNo": 1,
-        "UniqueID": "a1b2c3d4e5",
-        "Name": "Celisse Tuberfield",
-        "MobileNo": 9235795101,
-        "Category": "EU",
-        "TF": 7739,
-        "UDF": 5715,
-        "OUF": 5884,
-        "Total": 40943,
-        "Collected_TF": 9397,
-        "Collected_UDF": 8073,
-        "Collected_ODF": 9037,
-        "BankReferenceNo": "BRN-12345",
-        "ReceiptNo": 4674,
-        "TotalCollected_TF": 4443,
-        "TotalCollected_UDF": 1555,
-        "TotalCollected_ODF": 5212,
-        "Due_TF": 7017,
-        "Due_UDF": 7781,
-        "Due_ODF": 5437,
-        "Date": "21/10/2022"
+{
+    "hfareport": {
+        "code1": "0",
+        "message": "Students successfully retrieved",
+        "Students": [
+            {
+                "_id": "2020PHM020200001",
+                "name": "LAASYA REMALLI ",
+                "dob": "2000-04-30T00:00:00.000Z",
+                "gender": "Female",
+                "fatherName": "RAVI KUMAR",
+                "category": "OC",
+                "joiningYear": 2021,
+                "course": "Pharm D",
+                "currentYear": 2,
+                "yearWiseFees": {
+                    "1": {
+                        "tuitionFee": 0,
+                        "universityDevpFee": 0,
+                        "otherUNIVFee": 0
+                    },
+                    "2": {
+                        "tuitionFee": 35000,
+                        "universityDevpFee": 35000,
+                        "otherUNIVFee": 35000
+                    },
+                    "3": {
+                        "tuitionFee": 35000,
+                        "universityDevpFee": 35000,
+                        "otherUNIVFee": 35000
+                    }
+                },
+                "totalFeesPaid": 6800,
+                "collegeName": "SIR C. R. REDDY PHARMACEUTICAL SCIENCES, ELURU",
+                "createdBy": "ROHIT",
+                "lastModifiedBy": "ROHIT",
+                "deleteMark": 0,
+                "isActive": 1,
+                "changeCount": 1,
+                "tenantCode": "Fees",
+                "acl": [],
+                "__v": 0,
+                "dateCreated": "2023-04-25T17:51:15.060Z",
+                "lastModifiedDate": "2023-04-25T18:02:16.049Z",
+                "pendingFees": {
+                    "1": {
+                        "tuitionFee": 0,
+                        "universityDevpFee": 0,
+                        "otherUNIVFee": 0
+                    },
+                    "2": {
+                        "tuitionFee": 35000,
+                        "universityDevpFee": 28200,
+                        "otherUNIVFee": 35000
+                    },
+                    "3": {
+                        "tuitionFee": 35000,
+                        "universityDevpFee": 35000,
+                        "otherUNIVFee": 35000
+                    }
+                },
+                "excessFees": 0
+            },
+            {
+        "_id": "2020PHM020200002",
+        "name": "ASHOK BABU J",
+        "dob": "2000-05-01T00:00:00.000Z",
+        "gender": "Male",
+        "fatherName": "DURGA RAO",
+        "category": "OC",
+        "joiningYear": 2021,
+        "course": "Pharm D",
+        "currentYear": 2,
+        "yearWiseFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "totalFeesPaid": 19925,
+        "collegeName": "SIR C. R. REDDY PHARMACEUTICAL SCIENCES, ELURU",
+        "createdBy": "ROHIT",
+        "lastModifiedBy": "ROHIT",
+        "deleteMark": 0,
+        "isActive": 1,
+        "changeCount": 1,
+        "tenantCode": "Fees",
+        "acl": [],
+        "__v": 0,
+        "dateCreated": "2023-04-25T17:51:15.060Z",
+        "lastModifiedDate": "2023-04-25T18:02:16.063Z",
+        "pendingFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 15075,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "excessFees": 0
     },
     {
-        "SLNo": 2,
-        "UniqueID": "o1p2q3r4s5",
-        "Name": "Georges Kennifeck",
-        "MobileNo": 9037683141,
-        "Category": "AS",
-        "TF": 2777,
-        "UDF": 1067,
-        "OUF": 4196,
-        "Total": 37115,
-        "Collected_TF": 7194,
-        "Collected_UDF": 9519,
-        "Collected_ODF": 9189,
-        "BankReferenceNo": "BRN-86420",
-        "ReceiptNo": 2082,
-        "TotalCollected_TF": 929,
-        "TotalCollected_UDF": 606,
-        "TotalCollected_ODF": 1364,
-        "Due_TF": 6844,
-        "Due_UDF": 2878,
-        "Due_ODF": 2376,
-        "Date": "27/05/2022"
+        "_id": "2020PHM020200003",
+        "name": "NAVYA KALYANI KAVURI",
+        "dob": "2000-05-02T00:00:00.000Z",
+        "gender": "Female",
+        "fatherName": "JAGANMOHAN RAO",
+        "category": "OC",
+        "joiningYear": 2021,
+        "course": "Pharm D",
+        "currentYear": 2,
+        "yearWiseFees": {
+            "1": {
+                "tuitionFee": 10000,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "totalFeesPaid": 9925,
+        "collegeName": "SIR C. R. REDDY PHARMACEUTICAL SCIENCES, ELURU",
+        "createdBy": "ROHIT",
+        "lastModifiedBy": "ROHIT",
+        "deleteMark": 0,
+        "isActive": 1,
+        "changeCount": 1,
+        "tenantCode": "Fees",
+        "acl": [],
+        "__v": 0,
+        "dateCreated": "2023-04-25T17:51:15.061Z",
+        "lastModifiedDate": "2023-04-25T18:02:16.069Z",
+        "pendingFees": {
+            "1": {
+                "tuitionFee": 75,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "excessFees": 0
     },
     {
-        "SLNo": 3,
-        "UniqueID": "a1b2c3d4e5",
-        "Name": "Riannon Goodrick",
-        "MobileNo": 9955136256,
-        "Category": "SA",
-        "TF": 6422,
-        "UDF": 5066,
-        "OUF": 188,
-        "Total": 60212,
-        "Collected_TF": 5940,
-        "Collected_UDF": 5534,
-        "Collected_ODF": 7685,
-        "BankReferenceNo": "BRN-98765",
-        "ReceiptNo": 6926,
-        "TotalCollected_TF": 6082,
-        "TotalCollected_UDF": 6922,
-        "TotalCollected_ODF": 7566,
-        "Due_TF": 3164,
-        "Due_UDF": 326,
-        "Due_ODF": 586,
-        "Date": "29/01/2023"
+        "_id": "2020PHM020200004",
+        "name": "AVINASH MEDAM",
+        "dob": "2000-05-03T00:00:00.000Z",
+        "gender": "Male",
+        "fatherName": "SUBBA RAO",
+        "category": "OC",
+        "joiningYear": 2021,
+        "course": "Pharm D",
+        "currentYear": 2,
+        "yearWiseFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "totalFeesPaid": 23525,
+        "collegeName": "SIR C. R. REDDY PHARMACEUTICAL SCIENCES, ELURU",
+        "createdBy": "ROHIT",
+        "lastModifiedBy": "ROHIT",
+        "deleteMark": 0,
+        "isActive": 1,
+        "changeCount": 1,
+        "tenantCode": "Fees",
+        "acl": [],
+        "__v": 0,
+        "dateCreated": "2023-04-25T17:51:15.061Z",
+        "lastModifiedDate": "2023-04-25T18:02:16.079Z",
+        "pendingFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 11475,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "excessFees": 0
     },
     {
-        "SLNo": 4,
-        "UniqueID": "k1l2m3n4o5",
-        "Name": "Lucius Pordal",
-        "MobileNo": 9704499810,
-        "Category": "OC",
-        "TF": 6306,
-        "UDF": 8485,
-        "OUF": 8872,
-        "Total": 90392,
-        "Collected_TF": 993,
-        "Collected_UDF": 5103,
-        "Collected_ODF": 1786,
-        "BankReferenceNo": "BRN-54321",
-        "ReceiptNo": 7609,
-        "TotalCollected_TF": 4904,
-        "TotalCollected_UDF": 1873,
-        "TotalCollected_ODF": 5030,
-        "Due_TF": 627,
-        "Due_UDF": 6984,
-        "Due_ODF": 1569,
-        "Date": "13/01/2023"
+        "_id": "2020PHM020200007",
+        "name": "GAYATHRI PEDDISETTI ",
+        "dob": "2000-05-04T00:00:00.000Z",
+        "gender": "Female",
+        "fatherName": "GANGADHARA RAO",
+        "category": "OC",
+        "joiningYear": 2021,
+        "course": "Pharm D",
+        "currentYear": 2,
+        "yearWiseFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "totalFeesPaid": 17500,
+        "collegeName": "SIR C. R. REDDY PHARMACEUTICAL SCIENCES, ELURU",
+        "createdBy": "ROHIT",
+        "lastModifiedBy": "ROHIT",
+        "deleteMark": 0,
+        "isActive": 1,
+        "changeCount": 1,
+        "tenantCode": "Fees",
+        "acl": [],
+        "__v": 0,
+        "dateCreated": "2023-04-25T17:51:15.061Z",
+        "lastModifiedDate": "2023-04-25T18:02:16.088Z",
+        "pendingFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 17500,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "excessFees": 0
     },
     {
-        "SLNo": 5,
-        "UniqueID": "a1b2c3d4e5",
-        "Name": "Barbee Granger",
-        "MobileNo": 9385630045,
-        "Category": "NA",
-        "TF": 231,
-        "UDF": 2830,
-        "OUF": 2227,
-        "Total": 26008,
-        "Collected_TF": 1984,
-        "Collected_UDF": 6264,
-        "Collected_ODF": 6403,
-        "BankReferenceNo": "BRN-13579",
-        "ReceiptNo": 1169,
-        "TotalCollected_TF": 3462,
-        "TotalCollected_UDF": 6083,
-        "TotalCollected_ODF": 6443,
-        "Due_TF": 4529,
-        "Due_UDF": 5140,
-        "Due_ODF": 6691,
-        "Date": "08/05/2022"
+        "_id": "2020PHM020200009",
+        "name": "HARSHITHA VARRE ",
+        "dob": "2000-05-05T00:00:00.000Z",
+        "gender": "Female",
+        "fatherName": "DANESWARA RAO",
+        "category": "OC",
+        "joiningYear": 2021,
+        "course": "Pharm D",
+        "currentYear": 2,
+        "yearWiseFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "totalFeesPaid": 9925,
+        "collegeName": "SIR C. R. REDDY PHARMACEUTICAL SCIENCES, ELURU",
+        "createdBy": "ROHIT",
+        "lastModifiedBy": "ROHIT",
+        "deleteMark": 0,
+        "isActive": 1,
+        "changeCount": 1,
+        "tenantCode": "Fees",
+        "acl": [],
+        "__v": 0,
+        "dateCreated": "2023-04-25T17:51:15.061Z",
+        "lastModifiedDate": "2023-04-25T18:02:16.097Z",
+        "pendingFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 25075,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "excessFees": 0
     },
     {
-        "SLNo": 6,
-        "UniqueID": "f6g7h8i9j0",
-        "Name": "Wallache McConway",
-        "MobileNo": 9800986043,
-        "Category": "AS",
-        "TF": 5443,
-        "UDF": 4585,
-        "OUF": 7642,
-        "Total": 2002,
-        "Collected_TF": 6395,
-        "Collected_UDF": 7104,
-        "Collected_ODF": 6957,
-        "BankReferenceNo": "BRN-75309",
-        "ReceiptNo": 7959,
-        "TotalCollected_TF": 1566,
-        "TotalCollected_UDF": 6331,
-        "TotalCollected_ODF": 1054,
-        "Due_TF": 4128,
-        "Due_UDF": 4366,
-        "Due_ODF": 7526,
-        "Date": "03/07/2022"
+        "_id": "2020PHM020200011",
+        "name": "KARUNA KAGGA",
+        "dob": "2000-05-06T00:00:00.000Z",
+        "gender": "Female",
+        "fatherName": "NARAYANA",
+        "category": "OC",
+        "joiningYear": 2021,
+        "course": "Pharm D",
+        "currentYear": 2,
+        "yearWiseFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "totalFeesPaid": 17500,
+        "collegeName": "SIR C. R. REDDY PHARMACEUTICAL SCIENCES, ELURU",
+        "createdBy": "ROHIT",
+        "lastModifiedBy": "ROHIT",
+        "deleteMark": 0,
+        "isActive": 1,
+        "changeCount": 1,
+        "tenantCode": "Fees",
+        "acl": [],
+        "__v": 0,
+        "dateCreated": "2023-04-25T17:51:15.061Z",
+        "lastModifiedDate": "2023-04-25T18:02:16.107Z",
+        "pendingFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 17500,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "excessFees": 0
     },
     {
-        "SLNo": 7,
-        "UniqueID": "j6k7l8m9n0",
-        "Name": "Weylin Mosconi",
-        "MobileNo": 9516999783,
-        "Category": "EU",
-        "TF": 9907,
-        "UDF": 3249,
-        "OUF": 6359,
-        "Total": 60475,
-        "Collected_TF": 1510,
-        "Collected_UDF": 8121,
-        "Collected_ODF": 4520,
-        "BankReferenceNo": "BRN-54321",
-        "ReceiptNo": 5562,
-        "TotalCollected_TF": 3231,
-        "TotalCollected_UDF": 5846,
-        "TotalCollected_ODF": 933,
-        "Due_TF": 5187,
-        "Due_UDF": 6768,
-        "Due_ODF": 3061,
-        "Date": "30/03/2023"
+        "_id": "2020PHM020200012",
+        "name": "KEERTHANA CHALLAPALLI ",
+        "dob": "2000-05-07T00:00:00.000Z",
+        "gender": "Female",
+        "fatherName": "RAMBABU",
+        "category": "OC",
+        "joiningYear": 2021,
+        "course": "Pharm D",
+        "currentYear": 2,
+        "yearWiseFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "totalFeesPaid": 18675,
+        "collegeName": "SIR C. R. REDDY PHARMACEUTICAL SCIENCES, ELURU",
+        "createdBy": "ROHIT",
+        "lastModifiedBy": "ROHIT",
+        "deleteMark": 0,
+        "isActive": 1,
+        "changeCount": 1,
+        "tenantCode": "Fees",
+        "acl": [],
+        "__v": 0,
+        "dateCreated": "2023-04-25T17:51:15.061Z",
+        "lastModifiedDate": "2023-04-25T18:02:16.117Z",
+        "pendingFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 16325,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "excessFees": 0
     },
     {
-        "SLNo": 8,
-        "UniqueID": "e1f2g3h4i5",
-        "Name": "Jaclin Litchfield",
-        "MobileNo": 9297469275,
-        "Category": "NA",
-        "TF": 3944,
-        "UDF": 4056,
-        "OUF": 9926,
-        "Total": 46349,
-        "Collected_TF": 9487,
-        "Collected_UDF": 8477,
-        "Collected_ODF": 3933,
-        "BankReferenceNo": "BRN-36912",
-        "ReceiptNo": 1647,
-        "TotalCollected_TF": 2720,
-        "TotalCollected_UDF": 7097,
-        "TotalCollected_ODF": 9649,
-        "Due_TF": 5908,
-        "Due_UDF": 8974,
-        "Due_ODF": 2074,
-        "Date": "28/11/2022"
+        "_id": "2020PHM020200013",
+        "name": "LAKSHMI VASADI  ",
+        "dob": "2000-05-08T00:00:00.000Z",
+        "gender": "Female",
+        "fatherName": "SURYA CHANDRA RAO",
+        "category": "OC",
+        "joiningYear": 2021,
+        "course": "Pharm D",
+        "currentYear": 2,
+        "yearWiseFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "totalFeesPaid": 9925,
+        "collegeName": "SIR C. R. REDDY PHARMACEUTICAL SCIENCES, ELURU",
+        "createdBy": "ROHIT",
+        "lastModifiedBy": "ROHIT",
+        "deleteMark": 0,
+        "isActive": 1,
+        "changeCount": 1,
+        "tenantCode": "Fees",
+        "acl": [],
+        "__v": 0,
+        "dateCreated": "2023-04-25T17:51:15.061Z",
+        "lastModifiedDate": "2023-04-25T18:02:16.126Z",
+        "pendingFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 25075,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "excessFees": 0
     },
     {
-        "SLNo": 9,
-        "UniqueID": "t6u7v8w9x0",
-        "Name": "Mic Gurdon",
-        "MobileNo": 9703843868,
-        "Category": "AF",
-        "TF": 1093,
-        "UDF": 1919,
-        "OUF": 6401,
-        "Total": 51929,
-        "Collected_TF": 7815,
-        "Collected_UDF": 3901,
-        "Collected_ODF": 129,
-        "BankReferenceNo": "BRN-86420",
-        "ReceiptNo": 6112,
-        "TotalCollected_TF": 9244,
-        "TotalCollected_UDF": 7861,
-        "TotalCollected_ODF": 3119,
-        "Due_TF": 7133,
-        "Due_UDF": 753,
-        "Due_ODF": 1949,
-        "Date": "19/10/2022"
+        "_id": "2020PHM020200014",
+        "name": "LAKSHMI DEVI BEERA",
+        "dob": "2000-05-09T00:00:00.000Z",
+        "gender": "Female",
+        "fatherName": "GAJENDRA RAO",
+        "category": "OC",
+        "joiningYear": 2021,
+        "course": "Pharm D",
+        "currentYear": 2,
+        "yearWiseFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "totalFeesPaid": 0,
+        "collegeName": "SIR C. R. REDDY PHARMACEUTICAL SCIENCES, ELURU",
+        "createdBy": "ROHIT",
+        "lastModifiedBy": "ROHIT",
+        "deleteMark": 0,
+        "isActive": 1,
+        "changeCount": 0,
+        "tenantCode": "Fees",
+        "acl": [],
+        "__v": 0,
+        "dateCreated": "2023-04-25T17:51:15.062Z",
+        "lastModifiedDate": "2023-04-25T17:51:15.062Z",
+        "pendingFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "excessFees": 0
     },
     {
-        "SLNo": 10,
-        "UniqueID": "u1v2w3x4y5",
-        "Name": "Cathrine Hughesdon",
-        "MobileNo": 9963512566,
-        "Category": "EU",
-        "TF": 7465,
-        "UDF": 6847,
-        "OUF": 1024,
-        "Total": 53377,
-        "Collected_TF": 6311,
-        "Collected_UDF": 4670,
-        "Collected_ODF": 8714,
-        "BankReferenceNo": "BRN-54321",
-        "ReceiptNo": 7324,
-        "TotalCollected_TF": 9904,
-        "TotalCollected_UDF": 1931,
-        "TotalCollected_ODF": 999,
-        "Due_TF": 6307,
-        "Due_UDF": 6838,
-        "Due_ODF": 6046,
-        "Date": "26/02/2023"
+        "_id": "2020PHM020200015",
+        "name": "MANASWITHA SARIPALLI ",
+        "dob": "2000-05-10T00:00:00.000Z",
+        "gender": "Female",
+        "fatherName": "JAMES RAO",
+        "category": "OC",
+        "joiningYear": 2021,
+        "course": "Pharm D",
+        "currentYear": 2,
+        "yearWiseFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "totalFeesPaid": 0,
+        "collegeName": "SIR C. R. REDDY PHARMACEUTICAL SCIENCES, ELURU",
+        "createdBy": "ROHIT",
+        "lastModifiedBy": "ROHIT",
+        "deleteMark": 0,
+        "isActive": 1,
+        "changeCount": 0,
+        "tenantCode": "Fees",
+        "acl": [],
+        "__v": 0,
+        "dateCreated": "2023-04-25T17:51:15.062Z",
+        "lastModifiedDate": "2023-04-25T17:51:15.062Z",
+        "pendingFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "excessFees": 0
     },
     {
-        "SLNo": 11,
-        "UniqueID": "p6q7r8s9t0",
-        "Name": "Lynnea Baynam",
-        "MobileNo": 9143781467,
-        "Category": "OC",
-        "TF": 3288,
-        "UDF": 3250,
-        "OUF": 2707,
-        "Total": 55036,
-        "Collected_TF": 81,
-        "Collected_UDF": 2197,
-        "Collected_ODF": 1066,
-        "BankReferenceNo": "BRN-13579",
-        "ReceiptNo": 2359,
-        "TotalCollected_TF": 5735,
-        "TotalCollected_UDF": 1501,
-        "TotalCollected_ODF": 1691,
-        "Due_TF": 8478,
-        "Due_UDF": 3159,
-        "Due_ODF": 449,
-        "Date": "13/04/2023"
+        "_id": "2020PHM020200016",
+        "name": "MANEESHA CHINTA",
+        "dob": "2000-05-11T00:00:00.000Z",
+        "gender": "Female",
+        "fatherName": "DURGA REDDY",
+        "category": "OC",
+        "joiningYear": 2021,
+        "course": "Pharm D",
+        "currentYear": 2,
+        "yearWiseFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "totalFeesPaid": 0,
+        "collegeName": "SIR C. R. REDDY PHARMACEUTICAL SCIENCES, ELURU",
+        "createdBy": "ROHIT",
+        "lastModifiedBy": "ROHIT",
+        "deleteMark": 0,
+        "isActive": 1,
+        "changeCount": 0,
+        "tenantCode": "Fees",
+        "acl": [],
+        "__v": 0,
+        "dateCreated": "2023-04-25T17:51:15.062Z",
+        "lastModifiedDate": "2023-04-25T17:51:15.062Z",
+        "pendingFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "excessFees": 0
     },
     {
-        "SLNo": 12,
-        "UniqueID": "z6a7b8c9d0",
-        "Name": "Maiga Rumens",
-        "MobileNo": 9261618450,
-        "Category": "EU",
-        "TF": 7226,
-        "UDF": 2408,
-        "OUF": 4752,
-        "Total": 83445,
-        "Collected_TF": 5679,
-        "Collected_UDF": 5883,
-        "Collected_ODF": 1576,
-        "BankReferenceNo": "BRN-86420",
-        "ReceiptNo": 9501,
-        "TotalCollected_TF": 6171,
-        "TotalCollected_UDF": 8806,
-        "TotalCollected_ODF": 7753,
-        "Due_TF": 4672,
-        "Due_UDF": 9566,
-        "Due_ODF": 9238,
-        "Date": "04/05/2022"
+        "_id": "2020PHM020200017",
+        "name": "NAVYA KALA URLA ",
+        "dob": "2000-05-12T00:00:00.000Z",
+        "gender": "Female",
+        "fatherName": "PEDDI RAJU",
+        "category": "OC",
+        "joiningYear": 2021,
+        "course": "Pharm D",
+        "currentYear": 2,
+        "yearWiseFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "totalFeesPaid": 0,
+        "collegeName": "SIR C. R. REDDY PHARMACEUTICAL SCIENCES, ELURU",
+        "createdBy": "ROHIT",
+        "lastModifiedBy": "ROHIT",
+        "deleteMark": 0,
+        "isActive": 1,
+        "changeCount": 0,
+        "tenantCode": "Fees",
+        "acl": [],
+        "__v": 0,
+        "dateCreated": "2023-04-25T17:51:15.062Z",
+        "lastModifiedDate": "2023-04-25T17:51:15.062Z",
+        "pendingFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "excessFees": 0
     },
     {
-        "SLNo": 13,
-        "UniqueID": "a1b2c3d4e5",
-        "Name": "Seward Hardaway",
-        "MobileNo": 9149167568,
-        "Category": "OC",
-        "TF": 6748,
-        "UDF": 6548,
-        "OUF": 2181,
-        "Total": 27475,
-        "Collected_TF": 2946,
-        "Collected_UDF": 9065,
-        "Collected_ODF": 301,
-        "BankReferenceNo": "BRN-67890",
-        "ReceiptNo": 8733,
-        "TotalCollected_TF": 5914,
-        "TotalCollected_UDF": 729,
-        "TotalCollected_ODF": 5846,
-        "Due_TF": 6547,
-        "Due_UDF": 5510,
-        "Due_ODF": 8206,
-        "Date": "08/04/2023"
+        "_id": "2020PHM020200018",
+        "name": "PRAVEEN KINJINGI",
+        "dob": "2000-05-13T00:00:00.000Z",
+        "gender": "Male",
+        "fatherName": "VENKATA NAGARAJU",
+        "category": "OC",
+        "joiningYear": 2021,
+        "course": "Pharm D",
+        "currentYear": 2,
+        "yearWiseFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "totalFeesPaid": 0,
+        "collegeName": "SIR C. R. REDDY PHARMACEUTICAL SCIENCES, ELURU",
+        "createdBy": "ROHIT",
+        "lastModifiedBy": "ROHIT",
+        "deleteMark": 0,
+        "isActive": 1,
+        "changeCount": 0,
+        "tenantCode": "Fees",
+        "acl": [],
+        "__v": 0,
+        "dateCreated": "2023-04-25T17:51:15.062Z",
+        "lastModifiedDate": "2023-04-25T17:51:15.062Z",
+        "pendingFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "excessFees": 0
     },
     {
-        "SLNo": 14,
-        "UniqueID": "z6a7b8c9d0",
-        "Name": "Nichole Glader",
-        "MobileNo": 9641711949,
-        "Category": "AF",
-        "TF": 4932,
-        "UDF": 2879,
-        "OUF": 6109,
-        "Total": 97720,
-        "Collected_TF": 6668,
-        "Collected_UDF": 5112,
-        "Collected_ODF": 2033,
-        "BankReferenceNo": "BRN-24680",
-        "ReceiptNo": 5617,
-        "TotalCollected_TF": 7832,
-        "TotalCollected_UDF": 5303,
-        "TotalCollected_ODF": 1237,
-        "Due_TF": 5882,
-        "Due_UDF": 5570,
-        "Due_ODF": 1672,
-        "Date": "20/11/2022"
+        "_id": "2020PHM020200019",
+        "name": "RAMA SAI REMALLI ",
+        "dob": "2000-05-14T00:00:00.000Z",
+        "gender": "Male",
+        "fatherName": "CHINNA BABU",
+        "category": "OC",
+        "joiningYear": 2021,
+        "course": "Pharm D",
+        "currentYear": 2,
+        "yearWiseFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "totalFeesPaid": 0,
+        "collegeName": "SIR C. R. REDDY PHARMACEUTICAL SCIENCES, ELURU",
+        "createdBy": "ROHIT",
+        "lastModifiedBy": "ROHIT",
+        "deleteMark": 0,
+        "isActive": 1,
+        "changeCount": 0,
+        "tenantCode": "Fees",
+        "acl": [],
+        "__v": 0,
+        "dateCreated": "2023-04-25T17:51:15.062Z",
+        "lastModifiedDate": "2023-04-25T17:51:15.062Z",
+        "pendingFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "excessFees": 0
     },
     {
-        "SLNo": 15,
-        "UniqueID": "f6g7h8i9j0",
-        "Name": "Michael De Simoni",
-        "MobileNo": 9363616699,
-        "Category": "NA",
-        "TF": 6573,
-        "UDF": 8340,
-        "OUF": 5543,
-        "Total": 60044,
-        "Collected_TF": 556,
-        "Collected_UDF": 3798,
-        "Collected_ODF": 3319,
-        "BankReferenceNo": "BRN-75309",
-        "ReceiptNo": 7743,
-        "TotalCollected_TF": 8610,
-        "TotalCollected_UDF": 2593,
-        "TotalCollected_ODF": 4796,
-        "Due_TF": 9306,
-        "Due_UDF": 3526,
-        "Due_ODF": 3429,
-        "Date": "30/06/2022"
+        "_id": "2020PHM020200020",
+        "name": "RANI MANASA NANNA ",
+        "dob": "2000-05-15T00:00:00.000Z",
+        "gender": "Female",
+        "fatherName": "PULLA RAO",
+        "category": "OC",
+        "joiningYear": 2021,
+        "course": "Pharm D",
+        "currentYear": 2,
+        "yearWiseFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "totalFeesPaid": 8750,
+        "collegeName": "SIR C. R. REDDY PHARMACEUTICAL SCIENCES, ELURU",
+        "createdBy": "ROHIT",
+        "lastModifiedBy": "ROHIT",
+        "deleteMark": 0,
+        "isActive": 1,
+        "changeCount": 1,
+        "tenantCode": "Fees",
+        "acl": [],
+        "__v": 0,
+        "dateCreated": "2023-04-25T17:51:15.063Z",
+        "lastModifiedDate": "2023-04-25T18:02:16.138Z",
+        "pendingFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 26250,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "excessFees": 0
     },
     {
-        "SLNo": 16,
-        "UniqueID": "k1l2m3n4o5",
-        "Name": "Kaitlyn Suter",
-        "MobileNo": 9971901230,
-        "Category": "NA",
-        "TF": 8589,
-        "UDF": 7587,
-        "OUF": 9931,
-        "Total": 99842,
-        "Collected_TF": 5439,
-        "Collected_UDF": 9637,
-        "Collected_ODF": 6156,
-        "BankReferenceNo": "BRN-95127",
-        "ReceiptNo": 759,
-        "TotalCollected_TF": 8101,
-        "TotalCollected_UDF": 2915,
-        "TotalCollected_ODF": 5706,
-        "Due_TF": 6708,
-        "Due_UDF": 4024,
-        "Due_ODF": 6671,
-        "Date": "14/09/2022"
+        "_id": "2020PHM020200021",
+        "name": "RISHITHA SHRI K",
+        "dob": "2000-05-16T00:00:00.000Z",
+        "gender": "Female",
+        "fatherName": "MALLIKARJUNA",
+        "category": "OC",
+        "joiningYear": 2021,
+        "course": "Pharm D",
+        "currentYear": 2,
+        "yearWiseFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "totalFeesPaid": 8750,
+        "collegeName": "SIR C. R. REDDY PHARMACEUTICAL SCIENCES, ELURU",
+        "createdBy": "ROHIT",
+        "lastModifiedBy": "ROHIT",
+        "deleteMark": 0,
+        "isActive": 1,
+        "changeCount": 1,
+        "tenantCode": "Fees",
+        "acl": [],
+        "__v": 0,
+        "dateCreated": "2023-04-25T17:51:15.063Z",
+        "lastModifiedDate": "2023-04-25T18:02:16.146Z",
+        "pendingFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 26250,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "excessFees": 0
     },
     {
-        "SLNo": 17,
-        "UniqueID": "z6a7b8c9d0",
-        "Name": "Marilin Bigby",
-        "MobileNo": 9872516058,
-        "Category": "SA",
-        "TF": 6254,
-        "UDF": 7166,
-        "OUF": 9466,
-        "Total": 8373,
-        "Collected_TF": 8239,
-        "Collected_UDF": 4890,
-        "Collected_ODF": 845,
-        "BankReferenceNo": "BRN-36912",
-        "ReceiptNo": 6088,
-        "TotalCollected_TF": 5942,
-        "TotalCollected_UDF": 5519,
-        "TotalCollected_ODF": 9416,
-        "Due_TF": 8822,
-        "Due_UDF": 4928,
-        "Due_ODF": 677,
-        "Date": "11/04/2023"
+        "_id": "2020PHM020200022",
+        "name": "SAI TEJA KAMBHAMPATI ",
+        "dob": "2000-05-17T00:00:00.000Z",
+        "gender": "Male",
+        "fatherName": "KOTESWARA RAO",
+        "category": "OC",
+        "joiningYear": 2021,
+        "course": "Pharm D",
+        "currentYear": 2,
+        "yearWiseFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "totalFeesPaid": 0,
+        "collegeName": "SIR C. R. REDDY PHARMACEUTICAL SCIENCES, ELURU",
+        "createdBy": "ROHIT",
+        "lastModifiedBy": "ROHIT",
+        "deleteMark": 0,
+        "isActive": 1,
+        "changeCount": 0,
+        "tenantCode": "Fees",
+        "acl": [],
+        "__v": 0,
+        "dateCreated": "2023-04-25T17:51:15.063Z",
+        "lastModifiedDate": "2023-04-25T17:51:15.063Z",
+        "pendingFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "excessFees": 0
     },
     {
-        "SLNo": 18,
-        "UniqueID": "j6k7l8m9n0",
-        "Name": "Tillie Kimblen",
-        "MobileNo": 9336597640,
-        "Category": "EU",
-        "TF": 327,
-        "UDF": 504,
-        "OUF": 1290,
-        "Total": 7494,
-        "Collected_TF": 7534,
-        "Collected_UDF": 3420,
-        "Collected_ODF": 7164,
-        "BankReferenceNo": "BRN-12345",
-        "ReceiptNo": 8074,
-        "TotalCollected_TF": 7246,
-        "TotalCollected_UDF": 5433,
-        "TotalCollected_ODF": 6294,
-        "Due_TF": 6003,
-        "Due_UDF": 2483,
-        "Due_ODF": 5877,
-        "Date": "07/01/2023"
+        "_id": "2020PHM020200023",
+        "name": "SRAVANI KOPPULA ",
+        "dob": "2000-05-18T00:00:00.000Z",
+        "gender": "Female",
+        "fatherName": "VENKATESWARA RAO",
+        "category": "OC",
+        "joiningYear": 2021,
+        "course": "Pharm D",
+        "currentYear": 2,
+        "yearWiseFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "totalFeesPaid": 8750,
+        "collegeName": "SIR C. R. REDDY PHARMACEUTICAL SCIENCES, ELURU",
+        "createdBy": "ROHIT",
+        "lastModifiedBy": "ROHIT",
+        "deleteMark": 0,
+        "isActive": 1,
+        "changeCount": 1,
+        "tenantCode": "Fees",
+        "acl": [],
+        "__v": 0,
+        "dateCreated": "2023-04-25T17:51:15.063Z",
+        "lastModifiedDate": "2023-04-25T18:02:16.153Z",
+        "pendingFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 26250,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "excessFees": 0
     },
     {
-        "SLNo": 19,
-        "UniqueID": "k1l2m3n4o5",
-        "Name": "Nancy Schulter",
-        "MobileNo": 9579538984,
-        "Category": "AF",
-        "TF": 1142,
-        "UDF": 2456,
-        "OUF": 4097,
-        "Total": 39886,
-        "Collected_TF": 7474,
-        "Collected_UDF": 3888,
-        "Collected_ODF": 2060,
-        "BankReferenceNo": "BRN-54321",
-        "ReceiptNo": 6479,
-        "TotalCollected_TF": 5108,
-        "TotalCollected_UDF": 8040,
-        "TotalCollected_ODF": 313,
-        "Due_TF": 1431,
-        "Due_UDF": 7139,
-        "Due_ODF": 1522,
-        "Date": "15/11/2022"
+        "_id": "2020PHM020200025",
+        "name": "TAYYABA BASRI MD",
+        "dob": "2000-05-19T00:00:00.000Z",
+        "gender": "Female",
+        "fatherName": "MD MASTAN",
+        "category": "OC",
+        "joiningYear": 2021,
+        "course": "Pharm D",
+        "currentYear": 2,
+        "yearWiseFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "totalFeesPaid": 8750,
+        "collegeName": "SIR C. R. REDDY PHARMACEUTICAL SCIENCES, ELURU",
+        "createdBy": "ROHIT",
+        "lastModifiedBy": "ROHIT",
+        "deleteMark": 0,
+        "isActive": 1,
+        "changeCount": 1,
+        "tenantCode": "Fees",
+        "acl": [],
+        "__v": 0,
+        "dateCreated": "2023-04-25T17:51:15.063Z",
+        "lastModifiedDate": "2023-04-25T18:02:16.162Z",
+        "pendingFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 26250,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "excessFees": 0
     },
     {
-        "SLNo": 20,
-        "UniqueID": "e1f2g3h4i5",
-        "Name": "Celestia Skelhorne",
-        "MobileNo": 9461608388,
-        "Category": "NA",
-        "TF": 8156,
-        "UDF": 1942,
-        "OUF": 3087,
-        "Total": 47958,
-        "Collected_TF": 3569,
-        "Collected_UDF": 1344,
-        "Collected_ODF": 6494,
-        "BankReferenceNo": "BRN-98765",
-        "ReceiptNo": 2276,
-        "TotalCollected_TF": 9322,
-        "TotalCollected_UDF": 9539,
-        "TotalCollected_ODF": 7930,
-        "Due_TF": 3219,
-        "Due_UDF": 3454,
-        "Due_ODF": 6033,
-        "Date": "04/09/2022"
+        "_id": "2020PHM020200026",
+        "name": "TEJA HARSHINI KATAM",
+        "dob": "2000-05-20T00:00:00.000Z",
+        "gender": "Female",
+        "fatherName": " PRABHAKARA RAO",
+        "category": "OC",
+        "joiningYear": 2021,
+        "course": "Pharm D",
+        "currentYear": 2,
+        "yearWiseFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "totalFeesPaid": 0,
+        "collegeName": "SIR C. R. REDDY PHARMACEUTICAL SCIENCES, ELURU",
+        "createdBy": "ROHIT",
+        "lastModifiedBy": "ROHIT",
+        "deleteMark": 0,
+        "isActive": 1,
+        "changeCount": 0,
+        "tenantCode": "Fees",
+        "acl": [],
+        "__v": 0,
+        "dateCreated": "2023-04-25T17:51:15.063Z",
+        "lastModifiedDate": "2023-04-25T17:51:15.063Z",
+        "pendingFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "excessFees": 0
     },
     {
-        "SLNo": 21,
-        "UniqueID": "k1l2m3n4o5",
-        "Name": "Joletta Malby",
-        "MobileNo": 9138298369,
-        "Category": "SA",
-        "TF": 319,
-        "UDF": 1700,
-        "OUF": 7951,
-        "Total": 74986,
-        "Collected_TF": 7049,
-        "Collected_UDF": 7286,
-        "Collected_ODF": 5325,
-        "BankReferenceNo": "BRN-67890",
-        "ReceiptNo": 5155,
-        "TotalCollected_TF": 7124,
-        "TotalCollected_UDF": 2586,
-        "TotalCollected_ODF": 337,
-        "Due_TF": 756,
-        "Due_UDF": 4830,
-        "Due_ODF": 8391,
-        "Date": "27/01/2023"
+        "_id": "2020PHM020200027",
+        "name": "VARSHA POTHURAJU ",
+        "dob": "2000-05-21T00:00:00.000Z",
+        "gender": "Female",
+        "fatherName": "SATYA CHANDRA BABU",
+        "category": "OC",
+        "joiningYear": 2021,
+        "course": "Pharm D",
+        "currentYear": 2,
+        "yearWiseFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "totalFeesPaid": 0,
+        "collegeName": "SIR C. R. REDDY PHARMACEUTICAL SCIENCES, ELURU",
+        "createdBy": "ROHIT",
+        "lastModifiedBy": "ROHIT",
+        "deleteMark": 0,
+        "isActive": 1,
+        "changeCount": 0,
+        "tenantCode": "Fees",
+        "acl": [],
+        "__v": 0,
+        "dateCreated": "2023-04-25T17:51:15.064Z",
+        "lastModifiedDate": "2023-04-25T17:51:15.064Z",
+        "pendingFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "excessFees": 0
     },
     {
-        "SLNo": 22,
-        "UniqueID": "u1v2w3x4y5",
-        "Name": "Maryrose Lackinton",
-        "MobileNo": 9356570248,
-        "Category": "EU",
-        "TF": 5124,
-        "UDF": 5868,
-        "OUF": 8081,
-        "Total": 43179,
-        "Collected_TF": 2167,
-        "Collected_UDF": 5806,
-        "Collected_ODF": 7535,
-        "BankReferenceNo": "BRN-95127",
-        "ReceiptNo": 1735,
-        "TotalCollected_TF": 5704,
-        "TotalCollected_UDF": 3139,
-        "TotalCollected_ODF": 9826,
-        "Due_TF": 7283,
-        "Due_UDF": 1830,
-        "Due_ODF": 4409,
-        "Date": "23/04/2023"
+        "_id": "2020PHM020200029",
+        "name": "VEDA SAHITHI S",
+        "dob": "2000-05-22T00:00:00.000Z",
+        "gender": "Female",
+        "fatherName": "PYDI RAJU",
+        "category": "OC",
+        "joiningYear": 2021,
+        "course": "Pharm D",
+        "currentYear": 2,
+        "yearWiseFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "totalFeesPaid": 0,
+        "collegeName": "SIR C. R. REDDY PHARMACEUTICAL SCIENCES, ELURU",
+        "createdBy": "ROHIT",
+        "lastModifiedBy": "ROHIT",
+        "deleteMark": 0,
+        "isActive": 1,
+        "changeCount": 0,
+        "tenantCode": "Fees",
+        "acl": [],
+        "__v": 0,
+        "dateCreated": "2023-04-25T17:51:15.064Z",
+        "lastModifiedDate": "2023-04-25T17:51:15.064Z",
+        "pendingFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "excessFees": 0
     },
     {
-        "SLNo": 23,
-        "UniqueID": "u1v2w3x4y5",
-        "Name": "Malory Fernley",
-        "MobileNo": 9199300667,
-        "Category": "AF",
-        "TF": 5433,
-        "UDF": 7847,
-        "OUF": 4544,
-        "Total": 41581,
-        "Collected_TF": 3099,
-        "Collected_UDF": 2897,
-        "Collected_ODF": 2907,
-        "BankReferenceNo": "BRN-54321",
-        "ReceiptNo": 9914,
-        "TotalCollected_TF": 614,
-        "TotalCollected_UDF": 2883,
-        "TotalCollected_ODF": 7534,
-        "Due_TF": 4781,
-        "Due_UDF": 7968,
-        "Due_ODF": 2149,
-        "Date": "14/09/2022"
+        "_id": "2020PHM020210005",
+        "name": "AARTHI KAJA ",
+        "dob": "2000-05-23T00:00:00.000Z",
+        "gender": "Female",
+        "fatherName": "NAGESWARA RAO",
+        "category": "OC",
+        "joiningYear": 2021,
+        "course": "Pharm D",
+        "currentYear": 2,
+        "yearWiseFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "totalFeesPaid": 0,
+        "collegeName": "SIR C. R. REDDY PHARMACEUTICAL SCIENCES, ELURU",
+        "createdBy": "ROHIT",
+        "lastModifiedBy": "ROHIT",
+        "deleteMark": 0,
+        "isActive": 1,
+        "changeCount": 0,
+        "tenantCode": "Fees",
+        "acl": [],
+        "__v": 0,
+        "dateCreated": "2023-04-25T17:51:15.064Z",
+        "lastModifiedDate": "2023-04-25T17:51:15.064Z",
+        "pendingFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "excessFees": 0
     },
     {
-        "SLNo": 24,
-        "UniqueID": "f6g7h8i9j0",
-        "Name": "Carey Osmar",
-        "MobileNo": 9286499189,
-        "Category": "AF",
-        "TF": 6152,
-        "UDF": 4731,
-        "OUF": 6812,
-        "Total": 42142,
-        "Collected_TF": 7117,
-        "Collected_UDF": 7874,
-        "Collected_ODF": 4377,
-        "BankReferenceNo": "BRN-36912",
-        "ReceiptNo": 3880,
-        "TotalCollected_TF": 976,
-        "TotalCollected_UDF": 6248,
-        "TotalCollected_ODF": 4823,
-        "Due_TF": 5013,
-        "Due_UDF": 9042,
-        "Due_ODF": 2677,
-        "Date": "11/05/2022"
+        "_id": "2020PHM020210006",
+        "name": "CHARITHA DEVI ROMPELLA ",
+        "dob": "2000-05-24T00:00:00.000Z",
+        "gender": "Female",
+        "fatherName": "VENKATA SRINIVAS",
+        "category": "OC",
+        "joiningYear": 2021,
+        "course": "Pharm D",
+        "currentYear": 2,
+        "yearWiseFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "totalFeesPaid": 0,
+        "collegeName": "SIR C. R. REDDY PHARMACEUTICAL SCIENCES, ELURU",
+        "createdBy": "ROHIT",
+        "lastModifiedBy": "ROHIT",
+        "deleteMark": 0,
+        "isActive": 1,
+        "changeCount": 0,
+        "tenantCode": "Fees",
+        "acl": [],
+        "__v": 0,
+        "dateCreated": "2023-04-25T17:51:15.064Z",
+        "lastModifiedDate": "2023-04-25T17:51:15.064Z",
+        "pendingFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "excessFees": 0
     },
     {
-        "SLNo": 25,
-        "UniqueID": "f6g7h8i9j0",
-        "Name": "Barbe Kendle",
-        "MobileNo": 9081279515,
-        "Category": "EU",
-        "TF": 932,
-        "UDF": 8947,
-        "OUF": 2552,
-        "Total": 64704,
-        "Collected_TF": 7585,
-        "Collected_UDF": 3175,
-        "Collected_ODF": 5338,
-        "BankReferenceNo": "BRN-54321",
-        "ReceiptNo": 1487,
-        "TotalCollected_TF": 5776,
-        "TotalCollected_UDF": 9392,
-        "TotalCollected_ODF": 1098,
-        "Due_TF": 323,
-        "Due_UDF": 7149,
-        "Due_ODF": 223,
-        "Date": "19/07/2022"
+        "_id": "2020PHM020210008",
+        "name": "HARSHA PRIYA BALLA",
+        "dob": "2000-05-25T00:00:00.000Z",
+        "gender": "Female",
+        "fatherName": "UDAYA BHASKARA LAKSHMI DEEPAK",
+        "category": "OC",
+        "joiningYear": 2021,
+        "course": "Pharm D",
+        "currentYear": 2,
+        "yearWiseFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "totalFeesPaid": 0,
+        "collegeName": "SIR C. R. REDDY PHARMACEUTICAL SCIENCES, ELURU",
+        "createdBy": "ROHIT",
+        "lastModifiedBy": "ROHIT",
+        "deleteMark": 0,
+        "isActive": 1,
+        "changeCount": 0,
+        "tenantCode": "Fees",
+        "acl": [],
+        "__v": 0,
+        "dateCreated": "2023-04-25T17:51:15.064Z",
+        "lastModifiedDate": "2023-04-25T17:51:15.064Z",
+        "pendingFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "excessFees": 0
     },
     {
-        "SLNo": 26,
-        "UniqueID": "t6u7v8w9x0",
-        "Name": "Petr Stallan",
-        "MobileNo": 9732421397,
-        "Category": "OC",
-        "TF": 8099,
-        "UDF": 1476,
-        "OUF": 9171,
-        "Total": 92830,
-        "Collected_TF": 5685,
-        "Collected_UDF": 4779,
-        "Collected_ODF": 1025,
-        "BankReferenceNo": "BRN-98765",
-        "ReceiptNo": 3301,
-        "TotalCollected_TF": 7510,
-        "TotalCollected_UDF": 7761,
-        "TotalCollected_ODF": 7945,
-        "Due_TF": 176,
-        "Due_UDF": 6751,
-        "Due_ODF": 3943,
-        "Date": "10/04/2023"
+        "_id": "2020PHM020210010",
+        "name": "JHARIKA SRI SRAVANI T",
+        "dob": "2000-05-26T00:00:00.000Z",
+        "gender": "Female",
+        "fatherName": "YATEENDRANATH",
+        "category": "OC",
+        "joiningYear": 2021,
+        "course": "Pharm D",
+        "currentYear": 2,
+        "yearWiseFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "totalFeesPaid": 0,
+        "collegeName": "SIR C. R. REDDY PHARMACEUTICAL SCIENCES, ELURU",
+        "createdBy": "ROHIT",
+        "lastModifiedBy": "ROHIT",
+        "deleteMark": 0,
+        "isActive": 1,
+        "changeCount": 0,
+        "tenantCode": "Fees",
+        "acl": [],
+        "__v": 0,
+        "dateCreated": "2023-04-25T17:51:15.065Z",
+        "lastModifiedDate": "2023-04-25T17:51:15.065Z",
+        "pendingFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "excessFees": 0
     },
     {
-        "SLNo": 27,
-        "UniqueID": "z6a7b8c9d0",
-        "Name": "Frances Gomes",
-        "MobileNo": 9613965456,
-        "Category": "NA",
-        "TF": 5388,
-        "UDF": 1662,
-        "OUF": 7034,
-        "Total": 43909,
-        "Collected_TF": 282,
-        "Collected_UDF": 2204,
-        "Collected_ODF": 425,
-        "BankReferenceNo": "BRN-12345",
-        "ReceiptNo": 3491,
-        "TotalCollected_TF": 9911,
-        "TotalCollected_UDF": 7996,
-        "TotalCollected_ODF": 6848,
-        "Due_TF": 2327,
-        "Due_UDF": 5331,
-        "Due_ODF": 722,
-        "Date": "05/12/2022"
+        "_id": "2020PHM020210024",
+        "name": "SRAVANI VELPURI ",
+        "dob": "2000-05-27T00:00:00.000Z",
+        "gender": "Female",
+        "fatherName": "RAMA KRISHNA",
+        "category": "OC",
+        "joiningYear": 2021,
+        "course": "Pharm D",
+        "currentYear": 2,
+        "yearWiseFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "totalFeesPaid": 0,
+        "collegeName": "SIR C. R. REDDY PHARMACEUTICAL SCIENCES, ELURU",
+        "createdBy": "ROHIT",
+        "lastModifiedBy": "ROHIT",
+        "deleteMark": 0,
+        "isActive": 1,
+        "changeCount": 0,
+        "tenantCode": "Fees",
+        "acl": [],
+        "__v": 0,
+        "dateCreated": "2023-04-25T17:51:15.065Z",
+        "lastModifiedDate": "2023-04-25T17:51:15.065Z",
+        "pendingFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "excessFees": 0
     },
     {
-        "SLNo": 28,
-        "UniqueID": "f6g7h8i9j0",
-        "Name": "Lida Darrington",
-        "MobileNo": 9164206308,
-        "Category": "NA",
-        "TF": 4901,
-        "UDF": 4347,
-        "OUF": 9887,
-        "Total": 41510,
-        "Collected_TF": 2019,
-        "Collected_UDF": 6339,
-        "Collected_ODF": 9894,
-        "BankReferenceNo": "BRN-24680",
-        "ReceiptNo": 7150,
-        "TotalCollected_TF": 2206,
-        "TotalCollected_UDF": 6584,
-        "TotalCollected_ODF": 5823,
-        "Due_TF": 3595,
-        "Due_UDF": 3989,
-        "Due_ODF": 3798,
-        "Date": "28/03/2023"
+        "_id": "2020PHM020210028",
+        "name": "VASANTHA RELANGI ",
+        "dob": "2000-05-28T00:00:00.000Z",
+        "gender": "Female",
+        "fatherName": "VENKATA SURYA CHANDRA RAJU",
+        "category": "OC",
+        "joiningYear": 2021,
+        "course": "Pharm D",
+        "currentYear": 2,
+        "yearWiseFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "totalFeesPaid": 0,
+        "collegeName": "SIR C. R. REDDY PHARMACEUTICAL SCIENCES, ELURU",
+        "createdBy": "ROHIT",
+        "lastModifiedBy": "ROHIT",
+        "deleteMark": 0,
+        "isActive": 1,
+        "changeCount": 0,
+        "tenantCode": "Fees",
+        "acl": [],
+        "__v": 0,
+        "dateCreated": "2023-04-25T17:51:15.065Z",
+        "lastModifiedDate": "2023-04-25T17:51:15.065Z",
+        "pendingFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "excessFees": 0
     },
     {
-        "SLNo": 29,
-        "UniqueID": "a1b2c3d4e5",
-        "Name": "Lewes Cajkler",
-        "MobileNo": 9572094255,
-        "Category": "AF",
-        "TF": 7328,
-        "UDF": 8827,
-        "OUF": 3182,
-        "Total": 64877,
-        "Collected_TF": 1362,
-        "Collected_UDF": 6642,
-        "Collected_ODF": 5808,
-        "BankReferenceNo": "BRN-95127",
-        "ReceiptNo": 8353,
-        "TotalCollected_TF": 9604,
-        "TotalCollected_UDF": 2802,
-        "TotalCollected_ODF": 7736,
-        "Due_TF": 7042,
-        "Due_UDF": 9235,
-        "Due_ODF": 5431,
-        "Date": "03/01/2023"
+        "_id": "2020PHM020210030",
+        "name": "VENKATA ARAVIND KUMAR P",
+        "dob": "2000-05-29T00:00:00.000Z",
+        "gender": "Male",
+        "fatherName": "BULLIYYA",
+        "category": "OC",
+        "joiningYear": 2021,
+        "course": "Pharm D",
+        "currentYear": 2,
+        "yearWiseFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "totalFeesPaid": 0,
+        "collegeName": "SIR C. R. REDDY PHARMACEUTICAL SCIENCES, ELURU",
+        "createdBy": "ROHIT",
+        "lastModifiedBy": "ROHIT",
+        "deleteMark": 0,
+        "isActive": 1,
+        "changeCount": 0,
+        "tenantCode": "Fees",
+        "acl": [],
+        "__v": 0,
+        "dateCreated": "2023-04-25T17:51:15.065Z",
+        "lastModifiedDate": "2023-04-25T17:51:15.065Z",
+        "pendingFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "excessFees": 0
     },
     {
-        "SLNo": 30,
-        "UniqueID": "u1v2w3x4y5",
-        "Name": "Toby Killshaw",
-        "MobileNo": 9878106727,
-        "Category": "AF",
-        "TF": 2722,
-        "UDF": 2512,
-        "OUF": 2230,
-        "Total": 32597,
-        "Collected_TF": 6601,
-        "Collected_UDF": 8899,
-        "Collected_ODF": 1668,
-        "BankReferenceNo": "BRN-24680",
-        "ReceiptNo": 1771,
-        "TotalCollected_TF": 9687,
-        "TotalCollected_UDF": 25,
-        "TotalCollected_ODF": 6079,
-        "Due_TF": 5882,
-        "Due_UDF": 8049,
-        "Due_ODF": 131,
-        "Date": "22/01/2023"
+        "_id": "2020PHM020210031",
+        "name": "VENKATA LAKSHMI T",
+        "dob": "2000-05-30T00:00:00.000Z",
+        "gender": "Female",
+        "fatherName": "VIJAY KUMAR",
+        "category": "OC",
+        "joiningYear": 2021,
+        "course": "Pharm D",
+        "currentYear": 2,
+        "yearWiseFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "totalFeesPaid": 0,
+        "collegeName": "SIR C. R. REDDY PHARMACEUTICAL SCIENCES, ELURU",
+        "createdBy": "ROHIT",
+        "lastModifiedBy": "ROHIT",
+        "deleteMark": 0,
+        "isActive": 1,
+        "changeCount": 0,
+        "tenantCode": "Fees",
+        "acl": [],
+        "__v": 0,
+        "dateCreated": "2023-04-25T17:51:15.066Z",
+        "lastModifiedDate": "2023-04-25T17:51:15.066Z",
+        "pendingFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "excessFees": 0
     },
     {
-        "SLNo": 31,
-        "UniqueID": "o1p2q3r4s5",
-        "Name": "Gaston Rassmann",
-        "MobileNo": 9168467328,
-        "Category": "EU",
-        "TF": 4737,
-        "UDF": 5619,
-        "OUF": 3065,
-        "Total": 28366,
-        "Collected_TF": 3563,
-        "Collected_UDF": 9352,
-        "Collected_ODF": 4594,
-        "BankReferenceNo": "BRN-75309",
-        "ReceiptNo": 6477,
-        "TotalCollected_TF": 6025,
-        "TotalCollected_UDF": 2312,
-        "TotalCollected_ODF": 8610,
-        "Due_TF": 7784,
-        "Due_UDF": 4811,
-        "Due_ODF": 1161,
-        "Date": "25/11/2022"
-    },
-    {
-        "SLNo": 32,
-        "UniqueID": "o1p2q3r4s5",
-        "Name": "Teddy Stapford",
-        "MobileNo": 9097787197,
-        "Category": "OC",
-        "TF": 3919,
-        "UDF": 1837,
-        "OUF": 8420,
-        "Total": 74677,
-        "Collected_TF": 8596,
-        "Collected_UDF": 5873,
-        "Collected_ODF": 278,
-        "BankReferenceNo": "BRN-12345",
-        "ReceiptNo": 1581,
-        "TotalCollected_TF": 9075,
-        "TotalCollected_UDF": 3188,
-        "TotalCollected_ODF": 1407,
-        "Due_TF": 1840,
-        "Due_UDF": 6500,
-        "Due_ODF": 9087,
-        "Date": "07/12/2022"
-    },
-    {
-        "SLNo": 33,
-        "UniqueID": "a1b2c3d4e5",
-        "Name": "Ellissa Shepeard",
-        "MobileNo": 9874186584,
-        "Category": "NA",
-        "TF": 8060,
-        "UDF": 2474,
-        "OUF": 4066,
-        "Total": 50118,
-        "Collected_TF": 6209,
-        "Collected_UDF": 7532,
-        "Collected_ODF": 2223,
-        "BankReferenceNo": "BRN-75309",
-        "ReceiptNo": 7324,
-        "TotalCollected_TF": 6093,
-        "TotalCollected_UDF": 44,
-        "TotalCollected_ODF": 7469,
-        "Due_TF": 9687,
-        "Due_UDF": 9644,
-        "Due_ODF": 4764,
-        "Date": "22/08/2022"
-    },
-    {
-        "SLNo": 34,
-        "UniqueID": "o1p2q3r4s5",
-        "Name": "Nahum Andryushin",
-        "MobileNo": 9514241743,
-        "Category": "NA",
-        "TF": 5357,
-        "UDF": 6100,
-        "OUF": 6442,
-        "Total": 87482,
-        "Collected_TF": 8093,
-        "Collected_UDF": 1109,
-        "Collected_ODF": 672,
-        "BankReferenceNo": "BRN-24680",
-        "ReceiptNo": 9551,
-        "TotalCollected_TF": 8587,
-        "TotalCollected_UDF": 128,
-        "TotalCollected_ODF": 2744,
-        "Due_TF": 2985,
-        "Due_UDF": 4499,
-        "Due_ODF": 63,
-        "Date": "14/05/2022"
-    },
-    {
-        "SLNo": 35,
-        "UniqueID": "f6g7h8i9j0",
-        "Name": "Olin Hukin",
-        "MobileNo": 9908982837,
-        "Category": "SA",
-        "TF": 8363,
-        "UDF": 5281,
-        "OUF": 4172,
-        "Total": 32608,
-        "Collected_TF": 7861,
-        "Collected_UDF": 3905,
-        "Collected_ODF": 7855,
-        "BankReferenceNo": "BRN-95127",
-        "ReceiptNo": 4548,
-        "TotalCollected_TF": 4234,
-        "TotalCollected_UDF": 4135,
-        "TotalCollected_ODF": 5740,
-        "Due_TF": 7025,
-        "Due_UDF": 9671,
-        "Due_ODF": 7266,
-        "Date": "10/06/2022"
-    },
-    {
-        "SLNo": 36,
-        "UniqueID": "t6u7v8w9x0",
-        "Name": "Esdras Hardwick",
-        "MobileNo": 9212422411,
-        "Category": "AS",
-        "TF": 6895,
-        "UDF": 5208,
-        "OUF": 6306,
-        "Total": 9841,
-        "Collected_TF": 7321,
-        "Collected_UDF": 5862,
-        "Collected_ODF": 914,
-        "BankReferenceNo": "BRN-98765",
-        "ReceiptNo": 4441,
-        "TotalCollected_TF": 1832,
-        "TotalCollected_UDF": 8982,
-        "TotalCollected_ODF": 1465,
-        "Due_TF": 4916,
-        "Due_UDF": 4647,
-        "Due_ODF": 346,
-        "Date": "10/10/2022"
-    },
-    {
-        "SLNo": 37,
-        "UniqueID": "k1l2m3n4o5",
-        "Name": "Denver Spurgeon",
-        "MobileNo": 9160495180,
-        "Category": "AS",
-        "TF": 2979,
-        "UDF": 865,
-        "OUF": 932,
-        "Total": 57597,
-        "Collected_TF": 1937,
-        "Collected_UDF": 2255,
-        "Collected_ODF": 2768,
-        "BankReferenceNo": "BRN-13579",
-        "ReceiptNo": 6901,
-        "TotalCollected_TF": 9751,
-        "TotalCollected_UDF": 6038,
-        "TotalCollected_ODF": 4327,
-        "Due_TF": 2277,
-        "Due_UDF": 5735,
-        "Due_ODF": 6117,
-        "Date": "01/08/2022"
-    },
-    {
-        "SLNo": 38,
-        "UniqueID": "p6q7r8s9t0",
-        "Name": "Dermot Elvy",
-        "MobileNo": 9112025876,
-        "Category": "NA",
-        "TF": 4290,
-        "UDF": 5989,
-        "OUF": 7276,
-        "Total": 33722,
-        "Collected_TF": 1752,
-        "Collected_UDF": 3533,
-        "Collected_ODF": 5925,
-        "BankReferenceNo": "BRN-98765",
-        "ReceiptNo": 4308,
-        "TotalCollected_TF": 6956,
-        "TotalCollected_UDF": 8349,
-        "TotalCollected_ODF": 463,
-        "Due_TF": 5326,
-        "Due_UDF": 8842,
-        "Due_ODF": 4840,
-        "Date": "24/09/2022"
-    },
-    {
-        "SLNo": 39,
-        "UniqueID": "t6u7v8w9x0",
-        "Name": "Desiri Berlin",
-        "MobileNo": 9966782298,
-        "Category": "SA",
-        "TF": 8519,
-        "UDF": 5440,
-        "OUF": 8033,
-        "Total": 70592,
-        "Collected_TF": 5414,
-        "Collected_UDF": 8025,
-        "Collected_ODF": 4758,
-        "BankReferenceNo": "BRN-54321",
-        "ReceiptNo": 2443,
-        "TotalCollected_TF": 3857,
-        "TotalCollected_UDF": 54,
-        "TotalCollected_ODF": 2187,
-        "Due_TF": 3606,
-        "Due_UDF": 757,
-        "Due_ODF": 597,
-        "Date": "18/11/2022"
-    },
-    {
-        "SLNo": 40,
-        "UniqueID": "p6q7r8s9t0",
-        "Name": "Jamima Jacop",
-        "MobileNo": 9468920365,
-        "Category": "AF",
-        "TF": 9391,
-        "UDF": 9126,
-        "OUF": 294,
-        "Total": 5221,
-        "Collected_TF": 6789,
-        "Collected_UDF": 7337,
-        "Collected_ODF": 4290,
-        "BankReferenceNo": "BRN-24680",
-        "ReceiptNo": 6569,
-        "TotalCollected_TF": 2616,
-        "TotalCollected_UDF": 7316,
-        "TotalCollected_ODF": 1930,
-        "Due_TF": 3052,
-        "Due_UDF": 2884,
-        "Due_ODF": 3033,
-        "Date": "22/05/2022"
-    },
-    {
-        "SLNo": 41,
-        "UniqueID": "j6k7l8m9n0",
-        "Name": "Stephie Simonite",
-        "MobileNo": 9304446079,
-        "Category": "OC",
-        "TF": 8656,
-        "UDF": 571,
-        "OUF": 3691,
-        "Total": 55983,
-        "Collected_TF": 5331,
-        "Collected_UDF": 3398,
-        "Collected_ODF": 2067,
-        "BankReferenceNo": "BRN-67890",
-        "ReceiptNo": 1249,
-        "TotalCollected_TF": 1181,
-        "TotalCollected_UDF": 4308,
-        "TotalCollected_ODF": 8542,
-        "Due_TF": 5380,
-        "Due_UDF": 7054,
-        "Due_ODF": 2472,
-        "Date": "24/02/2023"
-    },
-    {
-        "SLNo": 42,
-        "UniqueID": "t6u7v8w9x0",
-        "Name": "Kermit Gregory",
-        "MobileNo": 9132741042,
-        "Category": "SA",
-        "TF": 2545,
-        "UDF": 7643,
-        "OUF": 2831,
-        "Total": 87264,
-        "Collected_TF": 5713,
-        "Collected_UDF": 9231,
-        "Collected_ODF": 4723,
-        "BankReferenceNo": "BRN-12345",
-        "ReceiptNo": 6992,
-        "TotalCollected_TF": 4780,
-        "TotalCollected_UDF": 1728,
-        "TotalCollected_ODF": 9742,
-        "Due_TF": 7815,
-        "Due_UDF": 7072,
-        "Due_ODF": 3075,
-        "Date": "22/04/2023"
-    },
-    {
-        "SLNo": 43,
-        "UniqueID": "a1b2c3d4e5",
-        "Name": "Amelie Ledgard",
-        "MobileNo": 9741731180,
-        "Category": "OC",
-        "TF": 6523,
-        "UDF": 3983,
-        "OUF": 9399,
-        "Total": 79219,
-        "Collected_TF": 622,
-        "Collected_UDF": 1400,
-        "Collected_ODF": 9952,
-        "BankReferenceNo": "BRN-12345",
-        "ReceiptNo": 9973,
-        "TotalCollected_TF": 6299,
-        "TotalCollected_UDF": 1050,
-        "TotalCollected_ODF": 1889,
-        "Due_TF": 7379,
-        "Due_UDF": 551,
-        "Due_ODF": 7563,
-        "Date": "08/10/2022"
-    },
-    {
-        "SLNo": 44,
-        "UniqueID": "p6q7r8s9t0",
-        "Name": "Elly Tate",
-        "MobileNo": 9405155868,
-        "Category": "OC",
-        "TF": 9833,
-        "UDF": 9482,
-        "OUF": 7257,
-        "Total": 72156,
-        "Collected_TF": 4033,
-        "Collected_UDF": 514,
-        "Collected_ODF": 6503,
-        "BankReferenceNo": "BRN-75309",
-        "ReceiptNo": 6159,
-        "TotalCollected_TF": 1098,
-        "TotalCollected_UDF": 7415,
-        "TotalCollected_ODF": 6542,
-        "Due_TF": 7666,
-        "Due_UDF": 1086,
-        "Due_ODF": 3936,
-        "Date": "18/09/2022"
-    },
-    {
-        "SLNo": 45,
-        "UniqueID": "p6q7r8s9t0",
-        "Name": "Haroun Windibank",
-        "MobileNo": 9674553635,
-        "Category": "OC",
-        "TF": 8576,
-        "UDF": 8325,
-        "OUF": 8684,
-        "Total": 90818,
-        "Collected_TF": 4140,
-        "Collected_UDF": 5271,
-        "Collected_ODF": 5043,
-        "BankReferenceNo": "BRN-36912",
-        "ReceiptNo": 1852,
-        "TotalCollected_TF": 3924,
-        "TotalCollected_UDF": 5967,
-        "TotalCollected_ODF": 175,
-        "Due_TF": 7413,
-        "Due_UDF": 5718,
-        "Due_ODF": 3716,
-        "Date": "03/07/2022"
-    },
-    {
-        "SLNo": 46,
-        "UniqueID": "u1v2w3x4y5",
-        "Name": "Smitty Orsi",
-        "MobileNo": 9450350662,
-        "Category": "NA",
-        "TF": 1794,
-        "UDF": 3842,
-        "OUF": 908,
-        "Total": 41639,
-        "Collected_TF": 3471,
-        "Collected_UDF": 6898,
-        "Collected_ODF": 3272,
-        "BankReferenceNo": "BRN-86420",
-        "ReceiptNo": 2024,
-        "TotalCollected_TF": 1182,
-        "TotalCollected_UDF": 8490,
-        "TotalCollected_ODF": 5157,
-        "Due_TF": 6317,
-        "Due_UDF": 4130,
-        "Due_ODF": 1482,
-        "Date": "03/12/2022"
-    },
-    {
-        "SLNo": 47,
-        "UniqueID": "k1l2m3n4o5",
-        "Name": "Cyndy Fozzard",
-        "MobileNo": 9895124290,
-        "Category": "AS",
-        "TF": 6262,
-        "UDF": 1656,
-        "OUF": 3164,
-        "Total": 60072,
-        "Collected_TF": 380,
-        "Collected_UDF": 617,
-        "Collected_ODF": 6384,
-        "BankReferenceNo": "BRN-24680",
-        "ReceiptNo": 7947,
-        "TotalCollected_TF": 2012,
-        "TotalCollected_UDF": 1859,
-        "TotalCollected_ODF": 7279,
-        "Due_TF": 3248,
-        "Due_UDF": 4549,
-        "Due_ODF": 3682,
-        "Date": "28/06/2022"
-    },
-    {
-        "SLNo": 48,
-        "UniqueID": "j6k7l8m9n0",
-        "Name": "Isiahi Dearle-Palser",
-        "MobileNo": 9810814017,
-        "Category": "EU",
-        "TF": 1687,
-        "UDF": 8620,
-        "OUF": 4634,
-        "Total": 71366,
-        "Collected_TF": 3578,
-        "Collected_UDF": 3342,
-        "Collected_ODF": 3974,
-        "BankReferenceNo": "BRN-86420",
-        "ReceiptNo": 1361,
-        "TotalCollected_TF": 9492,
-        "TotalCollected_UDF": 3023,
-        "TotalCollected_ODF": 3610,
-        "Due_TF": 1630,
-        "Due_UDF": 7359,
-        "Due_ODF": 9808,
-        "Date": "26/02/2023"
-    },
-    {
-        "SLNo": 49,
-        "UniqueID": "a1b2c3d4e5",
-        "Name": "Meggi Gurry",
-        "MobileNo": 9280110080,
-        "Category": "NA",
-        "TF": 4990,
-        "UDF": 7723,
-        "OUF": 1196,
-        "Total": 38389,
-        "Collected_TF": 2717,
-        "Collected_UDF": 7702,
-        "Collected_ODF": 9104,
-        "BankReferenceNo": "BRN-95127",
-        "ReceiptNo": 6692,
-        "TotalCollected_TF": 9844,
-        "TotalCollected_UDF": 5464,
-        "TotalCollected_ODF": 9567,
-        "Due_TF": 5464,
-        "Due_UDF": 2512,
-        "Due_ODF": 4815,
-        "Date": "18/08/2022"
-    },
-    {
-        "SLNo": 50,
-        "UniqueID": "j6k7l8m9n0",
-        "Name": "Arlinda Lowe",
-        "MobileNo": 9345668901,
-        "Category": "AS",
-        "TF": 4587,
-        "UDF": 7397,
-        "OUF": 5523,
-        "Total": 13370,
-        "Collected_TF": 855,
-        "Collected_UDF": 3442,
-        "Collected_ODF": 3332,
-        "BankReferenceNo": "BRN-67890",
-        "ReceiptNo": 2496,
-        "TotalCollected_TF": 1967,
-        "TotalCollected_UDF": 6366,
-        "TotalCollected_ODF": 1455,
-        "Due_TF": 7267,
-        "Due_UDF": 2176,
-        "Due_ODF": 2475,
-        "Date": "21/07/2022"
+        "_id": "2020PHM020210032",
+        "name": "VYSHNAVI KADALI ",
+        "dob": "2000-05-31T00:00:00.000Z",
+        "gender": "Female",
+        "fatherName": "VENKATA BHASKAR RAO",
+        "category": "OC",
+        "joiningYear": 2021,
+        "course": "Pharm D",
+        "currentYear": 2,
+        "yearWiseFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "totalFeesPaid": 0,
+        "collegeName": "SIR C. R. REDDY PHARMACEUTICAL SCIENCES, ELURU",
+        "createdBy": "ROHIT",
+        "lastModifiedBy": "ROHIT",
+        "deleteMark": 0,
+        "isActive": 1,
+        "changeCount": 0,
+        "tenantCode": "Fees",
+        "acl": [],
+        "__v": 0,
+        "dateCreated": "2023-04-25T17:51:15.066Z",
+        "lastModifiedDate": "2023-04-25T17:51:15.066Z",
+        "pendingFees": {
+            "1": {
+                "tuitionFee": 0,
+                "universityDevpFee": 0,
+                "otherUNIVFee": 0
+            },
+            "2": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            },
+            "3": {
+                "tuitionFee": 35000,
+                "universityDevpFee": 35000,
+                "otherUNIVFee": 35000
+            }
+        },
+        "excessFees": 0
     }
 ]
+}
+}
