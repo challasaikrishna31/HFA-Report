@@ -1,8 +1,8 @@
 import React, { useContext } from 'react'
-import { UserContext } from '../Context/UserContext'
+import { CommonContext } from '../Context/CommonContext'
 
 const DisplayCard = () => {
-    const { User } = useContext(UserContext);
+    const { User } = useContext(CommonContext);
     return (
         <div class="rounded shadow-lg box-border w-44 h-44 m-2 overflow-x-hidden">
             <div class="px-6 py-4">

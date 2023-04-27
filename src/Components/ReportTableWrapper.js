@@ -29,7 +29,12 @@ const ReportTableWrapper = () => {
             let dueFee = 0, dueUnivFee = 0;
             dueFee = student.pendingFees[student.currentYear.toString()]?.tuitionFee
             dueUnivFee = student.pendingFees[student.currentYear.toString()]?.universityDevpFee
-            return { ...student, openingBalance, collectedFee, collectedUnivFee, dueFee, dueUnivFee }
+
+            //demand Fee
+            let demandFee = 0, demandUnivFee = 0;
+            demandFee = collectedFee - dueFee
+            demandUnivFee = collectedUnivFee - dueUnivFee
+            return { ...student, openingBalance, collectedFee, collectedUnivFee, dueFee, dueUnivFee, demandFee, demandUnivFee }
         })
         setFinalTableData(finalStudentList);
     }, [tableData])

@@ -3,23 +3,26 @@ import './App.css';
 import Body from './Components/Body';
 import Footer from './Components/Footer';
 import Header from './Components/Header';
-import { UserContext } from './Context/UserContext';
+import NavBar from './Components/NavBar';
+import { CommonContext } from './Context/CommonContext';
 
 function App() {
-  const [user, setUser] = useState({
-    User: {
-      UserName: "Krishna",
-      Email: "challasaikrishna31@gmail.com"
-    }
+  const [commonData, setCommonData] = useState({
+    selectedButton: "Report",
+    // User: {
+    //   UserName: "Krishna",
+    //   Email: "challasaikrishna31@gmail.com"
+    // }
   });
   return (
-    <UserContext.Provider value={user}>
+    <CommonContext.Provider value={{ commonData, setCommonData }}>
       <div className='flex flex-col h-screen'>
         <Header />
+        <NavBar />
         <Body />
         {/* <Footer /> */}
     </div>
-    </UserContext.Provider>
+    </CommonContext.Provider>
 
 
   );

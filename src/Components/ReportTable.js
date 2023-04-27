@@ -7,8 +7,7 @@ import './table.css'
 
 export const ReportTable = ({ data }) => {
     const columns = useMemo(() => GROUPED_COLUMNS, [])
-    //const data = useMemo(() => MOCK_DATA?.hfareport?.Students, [])
-   // console.log(data)
+
     const {
         getTableProps,
         getTableBodyProps,

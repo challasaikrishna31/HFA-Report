@@ -221,6 +221,22 @@ export const GROUPED_COLUMNS = [
     ]
   },
   {
+    Header: 'This Year Demand',
+    Footer: 'This Year Demand',
+    columns: [
+      {
+        Header: 'Tution Fee',
+        Footer: 'Tution Fee',
+        accessor: 'demandFee',
+      },
+      {
+        Header: 'University Fees',
+        Footer: 'University Fees',
+        accessor: 'demandUnivFee',
+      },
+    ]
+  },
+  {
     Header: 'Excess Fees',
     Footer: 'Excess Fees',
     accessor: 'excessFees',
