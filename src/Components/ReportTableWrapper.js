@@ -3,12 +3,19 @@ import { getReportData } from '../Services/ReportService'
 import { ReportTable } from './ReportTable'
 import MOCK_DATA from '../Data/MOCK_DATA.json';
 import NoDataFound from './NoDataFound';
+import LoadingIcon from './LoadingIcon';
 const ReportTableWrapper = () => {
     const [tableData, setTableData] = useState([])
     const [finalTableData, setFinalTableData] = useState([])
+    const [loading, setLoading] = useState(false);
+
     useEffect(() => {
+        setLoading(true)
         getReportData().then(responce => {
             setTableData(responce?.Students)
+            setLoading(false)
+        }).catch(() => {
+            setLoading(false)
         })
         //setTableData(MOCK_DATA.feesmanagement.Students)
     }, [])
@@ -41,6 +48,8 @@ const ReportTableWrapper = () => {
     }, [tableData])
 
 
+    if (loading)
+        return <LoadingIcon />
     return (
         finalTableData.length > 0 ? <ReportTable data={finalTableData} /> : <NoDataFound />
     )

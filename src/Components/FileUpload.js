@@ -4,7 +4,7 @@ import { useDropzone } from "react-dropzone";
 import { FiUpload } from "react-icons/fi";
 import "tailwindcss/tailwind.css";
 import { uploadFile } from "../Services/ReportService";
-import UploadingIcon from "./UploadingIcon";
+import LoadingIcon from "./LoadingIcon";
 
 const UploadFile = () => {
     const [file, setFile] = useState(null);
@@ -81,7 +81,7 @@ const UploadFile = () => {
                 <div class={`p-4 mb-4 text-sm dark:bg-gray-800 rounded-lg   ${fileUploadedResult.isValid > 0 ? ' text-green-800 bg-green-50 dark:text-green-400' : 'text-red-800 bg-red-50 dark:text-red-400'}`} role="alert">
                     <span class="font-medium">{fileUploadedResult.message}</span>
                 </div>) : <div />}
-            {loading && <UploadingIcon />}
+            {loading && <LoadingIcon />}
             {file && (
                 <div>
                     <button
