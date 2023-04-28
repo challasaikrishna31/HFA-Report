@@ -1,5 +1,5 @@
 import { format } from 'date-fns'
-
+import React from 'react'
 // export const COLUMNS = [
 //   {
 //     Header: 'SL No',
@@ -125,19 +125,17 @@ export const GROUPED_COLUMNS = [
   // },
   {
     Header: 'Unique ID',
-    Footer: 'Unique ID',
+    Footer: 'Total',
     accessor: '_id',
     //sticky: 'left'
   },
   {
     Header: 'Name',
-    Footer: 'Name',
     accessor: 'name',
     //sticky: 'left'
   },
   {
     Header: 'Date of Birth',
-    Footer: 'Date of Birth',
     accessor: 'dob',
     Cell: ({ value }) => {
       return format(new Date(value), 'dd/MM/yyyy')
@@ -146,37 +144,31 @@ export const GROUPED_COLUMNS = [
   },
   {
     Header: 'Gender',
-    Footer: 'Gender',
     accessor: 'gender',
     //sticky: 'left'
   },
   {
     Header: 'Father Name',
-    Footer: 'Father Name',
     accessor: 'fatherName',
     //sticky: 'left'
   },
   {
     Header: 'Category',
-    Footer: 'Category',
     accessor: 'category',
     //sticky: 'left'
   },
   {
     Header: 'Joining Year',
-    Footer: 'Joining Year',
     accessor: 'joiningYear',
     //sticky: 'left'
   },
   {
     Header: 'Course',
-    Footer: 'Course',
     accessor: 'course',
     //sticky: 'left'
   },
   {
     Header: 'Opening Balance',
-    Footer: 'Opening Balance',
     accessor: 'openingBalance',
     //sticky: 'left'
   },
@@ -186,19 +178,37 @@ export const GROUPED_COLUMNS = [
     columns: [
       {
         Header: 'Collected Fee',
-        Footer: 'Collected Fee',
+        Footer: (data) => {
+          const total = React.useMemo(
+            () => data.rows.reduce((sum, row) => sum + row.values.collectedFee, 0),
+            [data.rows]
+          );
+          return <>{total}</>;
+        },
         accessor: 'collectedFee',
       },
       {
         Header: 'Collected University Fees',
-        Footer: 'Collected University Fees',
+        Footer: (data) => {
+          const total = React.useMemo(
+            () => data.rows.reduce((sum, row) => sum + row.values.collectedUnivFee, 0),
+            [data.rows]
+          );
+          return <>{total}</>;
+        },
         accessor: 'collectedUnivFee',
       },
     ]
   },
   {
     Header: 'Total Fees Paid',
-    Footer: 'Total Fees Paid',
+    Footer: (data) => {
+      const total = React.useMemo(
+        () => data.rows.reduce((sum, row) => sum + row.values.totalFeesPaid, 0),
+        [data.rows]
+      );
+      return <>{total}</>;
+    },
     accessor: 'totalFeesPaid',
     //sticky: 'left'
   },
@@ -208,13 +218,25 @@ export const GROUPED_COLUMNS = [
     columns: [
       {
         Header: 'Due Fee',
-        Footer: 'Due Fee',
+        Footer: (data) => {
+          const total = React.useMemo(
+            () => data.rows.reduce((sum, row) => sum + row.values.dueFee, 0),
+            [data.rows]
+          );
+          return <>{total}</>;
+        },
         accessor: 'dueFee',
         //sticky: 'left'
       },
       {
         Header: 'Due University Fees',
-        Footer: 'Due University Fees',
+        Footer: (data) => {
+          const total = React.useMemo(
+            () => data.rows.reduce((sum, row) => sum + row.values.dueUnivFee, 0),
+            [data.rows]
+          );
+          return <>{total}</>;
+        },
         accessor: 'dueUnivFee',
         //sticky: 'left'
       },
@@ -226,19 +248,37 @@ export const GROUPED_COLUMNS = [
     columns: [
       {
         Header: 'Tution Fee',
-        Footer: 'Tution Fee',
+        Footer: (data) => {
+          const total = React.useMemo(
+            () => data.rows.reduce((sum, row) => sum + row.values.demandFee, 0),
+            [data.rows]
+          );
+          return <>{total}</>;
+        },
         accessor: 'demandFee',
       },
       {
         Header: 'University Fees',
-        Footer: 'University Fees',
+        Footer: (data) => {
+          const total = React.useMemo(
+            () => data.rows.reduce((sum, row) => sum + row.values.demandUnivFee, 0),
+            [data.rows]
+          );
+          return <>{total}</>;
+        },
         accessor: 'demandUnivFee',
       },
     ]
   },
   {
     Header: 'Excess Fees',
-    Footer: 'Excess Fees',
+    Footer: (data) => {
+      const total = React.useMemo(
+        () => data.rows.reduce((sum, row) => sum + row.values.excessFees, 0),
+        [data.rows]
+      );
+      return <>{total}</>;
+    },
     accessor: 'excessFees',
     //sticky: 'left'
   },
