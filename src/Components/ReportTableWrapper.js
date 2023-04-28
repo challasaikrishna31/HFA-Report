@@ -2,14 +2,15 @@ import React, { useEffect, useState } from 'react'
 import { getReportData } from '../Services/ReportService'
 import { ReportTable } from './ReportTable'
 import MOCK_DATA from '../Data/MOCK_DATA.json';
+import NoDataFound from './NoDataFound';
 const ReportTableWrapper = () => {
     const [tableData, setTableData] = useState([])
     const [finalTableData, setFinalTableData] = useState([])
     useEffect(() => {
-        // getReportData().then(responce => {
-        //     setTableData(responce?.Students)
-        // })
-        setTableData(MOCK_DATA.hfareport.Students)
+        getReportData().then(responce => {
+            setTableData(responce?.Students)
+        })
+        //setTableData(MOCK_DATA.feesmanagement.Students)
     }, [])
     useEffect(() => {
         const studentList = [...tableData]
@@ -41,7 +42,7 @@ const ReportTableWrapper = () => {
 
 
     return (
-        <ReportTable data={finalTableData} />
+        finalTableData.length > 0 ? <ReportTable data={finalTableData} /> : <NoDataFound />
     )
 }
 

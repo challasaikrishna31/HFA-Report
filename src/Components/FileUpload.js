@@ -20,7 +20,8 @@ const UploadFile = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         const formData = new FormData();
-        formData.append("file", file);
+        formData.append("Attachment", file);
+        debugger;
         uploadFile(formData).then((resp) => {
             console.log(resp);
         })
@@ -33,6 +34,7 @@ const UploadFile = () => {
     };
     const clearFiles = () => {
         setFile(null);
+        setFileName("Choose file");
     }
     return (
         <div className="flex flex-col items-center justify-center m-5">

@@ -8,6 +8,9 @@ const NavBar = () => {
 
     return (
         <div class="flex flex-row justify-end mx-2 p-2 border-2 rounded-xl">
+            {/* <button class={commonData.selectedButton == "Search" ? activeButtonClass : deActiveButtonClass} onClick={() => { setCommonData({ selectedButton: "Search" }) }}>
+                Search
+            </button> */}
             <button class={commonData.selectedButton == "Report" ? activeButtonClass : deActiveButtonClass} onClick={() => { setCommonData({ selectedButton: "Report" }) }}>
                 Report
             </button>

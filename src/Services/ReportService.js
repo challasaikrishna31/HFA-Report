@@ -1,9 +1,10 @@
 import axios from "axios";
+const API_URL = "http://localhost:1337/api"
 export async function getReportData() {
     try {
-        // const response = await fetch('http://localhost:8000/hfareport');
+        // const response = await fetch('http://localhost:8000/feesmanagement');
         const response = await axios(
-            'http://localhost:8000/hfareport'
+            `${API_URL}/student/retrieve?collegeName=SIR C. R. REDDY PHARMACEUTICAL SCIENCES, ELURU&course=Pharm D&year=2`
         );
         return response.data;
     } catch (error) {
@@ -14,7 +15,8 @@ export async function getReportData() {
 
 export async function uploadFile(formData) {
     try {
-        const response = await axios.post("https://your-api-endpoint.com/upload", formData);
+        debugger;
+        const response = await axios.post(`${API_URL}/upload/students?collegeName=SIR C. R. REDDY PHARMACEUTICAL SCIENCES, ELURU`, formData);
         return response.data;
     } catch (err) {
         console.error(err);
