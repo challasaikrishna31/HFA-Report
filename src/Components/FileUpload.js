@@ -4,6 +4,7 @@ import { useDropzone } from "react-dropzone";
 import { FiUpload } from "react-icons/fi";
 import "tailwindcss/tailwind.css";
 import { uploadFile } from "../Services/ReportService";
+import UploadingIcon from "./UploadingIcon";
 
 const UploadFile = () => {
     const [file, setFile] = useState(null);
@@ -12,6 +13,7 @@ const UploadFile = () => {
         isValid: 0,
         message: "",
     });
+    const [loading, setLoading] = useState(false);
     const [uploadStudentData, setUploadStudentData] = useState(true);
     const activeButtonClass = "mx-2 bg-blue-500 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded"
     const deActiveButtonClass = "mx-2 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
@@ -27,14 +29,17 @@ const UploadFile = () => {
         e.preventDefault();
         const formData = new FormData();
         formData.append("Attachment", file);
+        setLoading(true);
         uploadFile(formData, uploadStudentData).then((resp) => {
             if (resp.code != -1) {
                 setFileUploadedResult({ isValid: 1, message: resp.message });
             } else {
                 setFileUploadedResult({ isValid: -1, message: resp.message });
             }
+            setLoading(false);
         }).catch((message) => {
             setFileUploadedResult({ isValid: -1, message });
+            setLoading(false);
         })
 
     };
@@ -76,6 +81,7 @@ const UploadFile = () => {
                 <div class={`p-4 mb-4 text-sm dark:bg-gray-800 rounded-lg   ${fileUploadedResult.isValid > 0 ? ' text-green-800 bg-green-50 dark:text-green-400' : 'text-red-800 bg-red-50 dark:text-red-400'}`} role="alert">
                     <span class="font-medium">{fileUploadedResult.message}</span>
                 </div>) : <div />}
+            {loading && <UploadingIcon />}
             {file && (
                 <div>
                     <button
