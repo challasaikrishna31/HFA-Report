@@ -7,8 +7,14 @@ import { uploadFile } from "../Services/ReportService";
 
 const UploadFile = () => {
     const [file, setFile] = useState(null);
-    const [fileName, setFileName] = useState("Choose file");
-
+    const [fileName, setFileName] = useState("");
+    const [fileUploadedResult, setFileUploadedResult] = useState({
+        isValid: 0,
+        message: "",
+    });
+    const [uploadStudentData, setUploadStudentData] = useState(true);
+    const activeButtonClass = "mx-2 bg-blue-500 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded"
+    const deActiveButtonClass = "mx-2 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
     const { getRootProps, getInputProps, isDragActive } = useDropzone({
         accept: "image/*",
         onDrop: (acceptedFiles) => {
@@ -21,23 +27,32 @@ const UploadFile = () => {
         e.preventDefault();
         const formData = new FormData();
         formData.append("Attachment", file);
-        debugger;
-        uploadFile(formData).then((resp) => {
-            console.log(resp);
+        uploadFile(formData, uploadStudentData).then((resp) => {
+            if (resp.code != -1) {
+                setFileUploadedResult({ isValid: 1, message: resp.message });
+            } else {
+                setFileUploadedResult({ isValid: -1, message: resp.message });
+            }
+        }).catch((message) => {
+            setFileUploadedResult({ isValid: -1, message });
         })
-        // try {
-        //     const res = await axios.post("https://your-api-endpoint.com/upload", formData);
-        //     console.log(res.data);
-        // } catch (err) {
-        //     console.error(err);
-        // }
+
     };
     const clearFiles = () => {
         setFile(null);
-        setFileName("Choose file");
+        setFileName("");
+        setFileUploadedResult({ isValid: 0, message: "" });
     }
     return (
         <div className="flex flex-col items-center justify-center m-5">
+            <div className="flex items-center justify-center m-5">
+                <button onClick={() => { setUploadStudentData(true); clearFiles() }} class={uploadStudentData ? activeButtonClass : deActiveButtonClass}>
+                    Upload Student Data
+                </button>
+                <button onClick={() => { setUploadStudentData(false); clearFiles() }} class={uploadStudentData ? deActiveButtonClass : activeButtonClass}>
+                    Upload Transaction Data
+                </button>
+            </div>
             <div
                 {...getRootProps()}
                 className="w-full max-w-md p-8 mx-auto border-2 border-dashed rounded-lg cursor-pointer transition-all duration-300 ease-in-out hover:border-gray-500"
@@ -57,6 +72,10 @@ const UploadFile = () => {
                 )}
                 <p className="mt-2 text-sm text-gray-500">{fileName}</p>
             </div>
+            {fileUploadedResult.isValid ? (
+                <div class={`p-4 mb-4 text-sm dark:bg-gray-800 rounded-lg   ${fileUploadedResult.isValid > 0 ? ' text-green-800 bg-green-50 dark:text-green-400' : 'text-red-800 bg-red-50 dark:text-red-400'}`} role="alert">
+                    <span class="font-medium">{fileUploadedResult.message}</span>
+                </div>) : <div />}
             {file && (
                 <div>
                     <button

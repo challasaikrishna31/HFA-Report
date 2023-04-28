@@ -13,13 +13,15 @@ export async function getReportData() {
 
 }
 
-export async function uploadFile(formData) {
+export async function uploadFile(formData, uploadStudentData) {
+    const studentUploadURL = "upload/students?collegeName=SIR C. R. REDDY PHARMACEUTICAL SCIENCES, ELURU"
+    const trasactionUploadURL = "upload/transactions"
+    const finalFileUploadURL = uploadStudentData ? studentUploadURL : trasactionUploadURL;
     try {
-        debugger;
-        const response = await axios.post(`${API_URL}/upload/students?collegeName=SIR C. R. REDDY PHARMACEUTICAL SCIENCES, ELURU`, formData);
+        const response = await axios.post(`${API_URL}/${finalFileUploadURL}`, formData);
         return response.data;
     } catch (err) {
-        console.error(err);
+        throw new Error(err.message || " Network request failed");
     }
 
 }
